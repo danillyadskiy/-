@@ -17,7 +17,7 @@ public class Scale : MonoBehaviour
         _scaleChange = new Vector3(scaleSize, scaleSize, scaleSize);
     }
 
-    void Update()
+    private void Update()
     {
         transform.localScale += _scaleChange;
     }

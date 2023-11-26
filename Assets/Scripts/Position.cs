@@ -7,7 +7,7 @@ public class Position : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    void Update()
+    private void Update()
     {
         float offsetX = 0;
         float offsetY = 0;
